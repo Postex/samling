@@ -65,7 +65,8 @@
               </div>
               <div class="form-group" id="nameIdentifierControl">
                 <label class="control-label" for="nameIdentifier">Name Identifier *</label>
-                <input type="text" class="form-control" id="nameIdentifier">
+                <input type="text" class="form-control" id="nameIdentifier"
+                       value="Test SAML">
               </div>
               <div class="form-group" id="callbackUrlControl">
                 <label class="control-label" for="callbackUrl">Assertion Consumer URL (Recipient) *</label>
@@ -110,7 +111,8 @@
               <div class="form-group">
                   <label class="control-label" for="samlAttributes">SAML Attributes</label>
                   <small class="form-text text-muted">place each attribute on a separate line</small>
-                  <textarea class="form-control" rows="3" id="samlAttributes" placeholder="attr1=value1&#10;attr2=value2"></textarea>
+                  <textarea class="form-control" rows="3" id="samlAttributes" placeholder="attr1=value1&#10;attr2=value2"
+                            value="email=&#10;groups=g1,g3"></textarea>
               </div>
 
               <div class="row">
