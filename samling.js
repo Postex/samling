@@ -164,7 +164,7 @@ $(function() {
     cert.validity.notAfter.setFullYear(cert.validity.notBefore.getFullYear() + 1);
     var attrs = [{
       name: 'commonName',
-      value: 'hoeflake.com'
+      value: 'capriza.com'
     }, {
       name: 'countryName',
       value: 'US'
@@ -213,7 +213,7 @@ $(function() {
       name: 'subjectAltName',
       altNames: [{
         type: 6, // URI
-        value: 'http://choeflake.com/samling'
+        value: 'http://capriza.com/samling'
       }]
     }, {
       name: 'subjectKeyIdentifier'
