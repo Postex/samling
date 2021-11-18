@@ -164,16 +164,16 @@ $(function() {
     cert.validity.notAfter.setFullYear(cert.validity.notBefore.getFullYear() + 1);
     var attrs = [{
       name: 'commonName',
-      value: 'capriza.com'
+      value: 'postex-dev.com'
     }, {
       name: 'countryName',
-      value: 'US'
+      value: 'NL'
     }, {
       shortName: 'ST',
-      value: 'Virginia'
+      value: 'Zuid Holland'
     }, {
       name: 'localityName',
-      value: 'Blacksburg'
+      value: 'Gouda'
     }, {
       name: 'organizationName',
       value: 'Samling'
@@ -213,7 +213,7 @@ $(function() {
       name: 'subjectAltName',
       altNames: [{
         type: 6, // URI
-        value: 'http://capriza.com/samling'
+        value: 'http://postex-dev.com/samling'
       }]
     }, {
       name: 'subjectKeyIdentifier'
