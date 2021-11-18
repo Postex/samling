@@ -37,7 +37,7 @@ var algorithms = {
 };
 
 exports.parseRequest = function(options, request, callback) {
-  options.issuer = options.issuer || 'https://choeflake.github.io/samling/samling.html';
+  options.issuer = options.issuer || 'https://postex.github.io/samling/samling.html';
   request = decodeURIComponent(request);
   var buffer = new Buffer(request, 'base64');
   zlib.inflateRaw(buffer, function(err, result) {
